@@ -16,6 +16,6 @@
                 .fadeIn(1000)
                 .end()
                 .appendTo('.section1');
-        }, 3000);
+        }, 5000);
 
     });
