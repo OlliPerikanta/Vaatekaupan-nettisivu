@@ -106,7 +106,7 @@ body {
 }
 
 .section2 {
-    height: 1000px;
+    height: auto;
     padding: 15px;
     background-color: #EEEEEE;
 }
