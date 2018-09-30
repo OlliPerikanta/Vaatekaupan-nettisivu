@@ -7,15 +7,15 @@
     }
 
     $(document).ready(function () {
-        $("#slideshow > div:gt(0)").hide();
+        $(".section1 > div:gt(0)").hide();
 
         setInterval(function () {
-            $('#slideshow > div:first')
+            $('.section1 > div:first')
                 .fadeOut(1000)
                 .next()
                 .fadeIn(1000)
                 .end()
-                .appendTo('#slideshow');
+                .appendTo('.section1');
         }, 3000);
 
     });
