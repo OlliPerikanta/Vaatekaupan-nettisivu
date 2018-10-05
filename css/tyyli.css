@@ -1,7 +1,7 @@
 html,
 body {
     height: 100%;
-    width: 100%;
+
     margin: 0 !important;
 
 }
@@ -115,7 +115,7 @@ body {
 
 .section3 {
     height: auto;
-
+    padding: 15px;
 }
 
 .alaotsikko {
