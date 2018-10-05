@@ -112,9 +112,32 @@ body {
 }
 
 .section3 {
-    height: 1000px;
+    height: auto;
     padding: 15px;
 }
+
+.alaotsikko {
+    margin-left: 50px;
+    margin-bottom: inherit !important;
+}
+
+.alaotsikko2 {
+    margin-left: 90px;
+    margin-bottom: inherit !important;
+}
+
+.italicalaotsikko {
+    margin-left: 125px;
+}
+
+
+.viikontyyli img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+}
+
 
 .section4 {
     height: 1000px;
