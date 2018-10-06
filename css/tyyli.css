@@ -116,6 +116,8 @@ body {
 .section3 {
     height: auto;
     padding: 15px;
+
+
 }
 
 .alaotsikko {
@@ -144,6 +146,11 @@ body {
 .section4 {
     height: 1000px;
     background-color: #F1F1F2;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .section5 {
@@ -153,6 +160,22 @@ body {
 .section6 {
     height: 1000px;
     background-color: #363237;
+}
+
+@media (max-width: 767px) {
+    .alaotsikko {
+        margin-left: 25px;
+
+    }
+
+    .alaotsikko2 {
+        margin-left: 45px;
+
+    }
+
+    .italicalaotsikko {
+        margin-left: 65px;
+    }
 }
 
 @media screen and (max-height: 450px) {
