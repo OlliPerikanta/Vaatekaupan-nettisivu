@@ -203,11 +203,12 @@ body {
     .italicalaotsikko {
         margin-left: 65px;
     }
+
+    .kausi img {
+        height: 150px;
+    }
 }
 
-.kausi img {
-    height: 150px;
-}
 
 @media screen and (max-height: 450px) {
     .overlay a {
