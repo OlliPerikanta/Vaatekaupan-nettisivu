@@ -1,7 +1,6 @@
 html,
 body {
     height: 100%;
-
     margin: 0 !important;
 
 }
@@ -36,6 +35,39 @@ body {
     height: 100%;
     width: 100%;
     padding: 10px;
+}
+
+.sivulta {
+    -webkit-animation: tekstisivulta 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation: tekstisivulta 1s;
+    animation-fill-mode: forwards;
+    position: absolute;
+}
+
+
+@-webkit-keyframes tekstisivulta {
+    from {
+        opacity: 0;
+        left: -500px;
+    }
+    to {
+        opacity: 1;
+        left: 0px;
+
+    }
+}
+
+@keyframes tekstisivulta {
+    from {
+        opacity: 0;
+        left: -500px;
+    }
+    to {
+        opacity: 1;
+        left: 0px;
+
+    }
 }
 
 .kokonaytto {
