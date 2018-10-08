@@ -5,7 +5,9 @@ body {
 
 }
 
-
+h3 {
+    font-size: 1.5rem;
+}
 
 .navbar {
     color: #C6B298 !important;
@@ -268,6 +270,7 @@ body {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 50px;
 }
 
 .footteri {
@@ -283,6 +286,11 @@ body {
 
 .footterikaupat {
     color: white;
+}
+
+.viiva {
+    height: 70%;
+    border-right: 2px solid #C6B298 !important;
 }
 
 @media (max-width: 767px) {
