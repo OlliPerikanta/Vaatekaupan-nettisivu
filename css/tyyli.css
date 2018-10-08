@@ -25,7 +25,7 @@ body {
     padding: .5rem 1rem;
 }
 
-.ekakuva {
+.kuvateksti {
     color: #C6B298 !important;
     position: absolute;
     display: flex;
@@ -37,10 +37,22 @@ body {
     padding: 10px;
 }
 
+.kuvateksti2 {
+    color: white !important;
+    font-size: 2.5rem !important;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
 .sivulta {
-    -webkit-animation: tekstisivulta 1s;
+    -webkit-animation: tekstisivulta 1.3s;
     -webkit-animation-fill-mode: forwards;
-    animation: tekstisivulta 1s;
+    animation: tekstisivulta 1.3s;
     animation-fill-mode: forwards;
     position: absolute;
 }
@@ -140,8 +152,10 @@ body {
     text-align: center;
     color: #C6B298;
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
+
+
 
 .kategoriakuvat img {
     height: auto;
@@ -149,12 +163,14 @@ body {
     border-radius: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
+
 }
 
 .section2 {
     height: auto;
     padding: 15px;
     background-color: #EEEEEE;
+    padding-bottom: 50px;
 }
 
 .section3 {
@@ -165,17 +181,20 @@ body {
 }
 
 .alaotsikko {
+    margin-top: 50px;
     margin-left: 50px;
     margin-bottom: inherit !important;
 }
 
 .alaotsikko2 {
+    margin-top: 50px;
     margin-left: 90px;
     margin-bottom: inherit !important;
 }
 
 .italicalaotsikko {
     margin-left: 125px;
+    margin-bottom: 50px;
 }
 
 
@@ -212,15 +231,24 @@ body {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    display: block;
+}
+
+.vinkit {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .vinkit img {
     margin-top: 10px;
     margin-bottom: 10px;
     width: 100%;
-
+    max-width: 500px;
     height: 740px;
     object-fit: cover;
+
 }
 
 .section6 {
