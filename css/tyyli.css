@@ -176,14 +176,14 @@ body {
     height: auto;
     padding: 15px;
     background-color: #EEEEEE;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 
 }
 
 .section3 {
     height: auto;
     padding: 15px;
-
+    padding-bottom: 100px;
 
 }
 
@@ -219,6 +219,7 @@ body {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+    padding-bottom: 100px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -236,6 +237,7 @@ body {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+    padding-bottom: 100px;
     margin-right: auto;
     margin-left: auto;
     display: block;
@@ -259,13 +261,28 @@ body {
 }
 
 .section6 {
-    height: 1000px;
+    height: auto;
     background-color: #363237;
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.footteri {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: #C6B298 !important;
+    line-height: 10px;
+}
+
+.footterikaupat {
+    color: white;
 }
 
 @media (max-width: 767px) {
