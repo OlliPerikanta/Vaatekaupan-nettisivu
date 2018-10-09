@@ -23,10 +23,28 @@ h3 {
     color: #C6B298 !important;
 }
 
-.fa {
+.nav-link:hover {
+    color: #5D535E !important;
+}
+
+.fa-shopping-cart {
     color: #C6B298 !important;
     font-size: 24px !important;
     padding: .5rem 1rem;
+}
+
+.fa-shopping-cart:hover {
+    color: #5D535E !important;
+}
+
+.fa-globe {
+    color: #C6B298 !important;
+    font-size: 24px !important;
+    padding: .5rem 1rem;
+}
+
+.fa-globe:hover {
+    color: #5D535E !important;
 }
 
 .kuvateksti {
@@ -342,15 +360,65 @@ h3 {
     width: 100%;
     color: #C6B298 !important;
     line-height: 10px;
+    padding: 40px 0px 40px 0px;
 }
 
 .footterikaupat {
     color: white;
 }
 
-.viiva {
-    height: 70%;
-    border-right: 2px solid #C6B298 !important;
+.fa-youtube {
+    background: #C6B298;
+    color: #363237 !important;
+    padding: 10px 12px 10px 12px !important;
+    font-size: 30px !important;
+    text-align: center !important;
+    text-decoration: none;
+    margin: 10px !important;
+    border-radius: 50% !important;
+
+}
+
+.fa-facebook {
+    background: #C6B298;
+    color: #363237 !important;
+    padding: 10px 16px 10px 16px !important;
+    font-size: 30px !important;
+    text-align: center !important;
+    text-decoration: none;
+    margin: 10px !important;
+    border-radius: 50% !important;
+}
+
+.fa-instagram {
+    background: #C6B298;
+    color: #363237 !important;
+    padding: 10px 12px 10px 12px !important;
+    font-size: 30px !important;
+    text-align: center !important;
+    text-decoration: none;
+    margin: 10px !important;
+    border-radius: 50% !important;
+}
+
+.fa-youtube:hover {
+    color: #C6B298 !important;
+    background: #5D535E !important;
+}
+
+.fa-facebook:hover {
+    color: #C6B298 !important;
+    background: #5D535E !important;
+}
+
+.fa-instagram:hover {
+    color: #C6B298 !important;
+    background: #5D535E !important;
+}
+
+.flexsuunta {
+    display: flex;
+    flex-direction: row;
 }
 
 @media (max-width: 767px) {
