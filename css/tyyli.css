@@ -30,7 +30,7 @@ h3 {
 }
 
 .kuvateksti {
-    color: #C6B298 !important;
+    color: #F1F1F2 !important;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -356,7 +356,11 @@ h3 {
 @media (max-width: 767px) {
 
     .kuvateksti {
-        font-size: 30px !important;
+        font-size: 1rem !important;
+    }
+
+    .kuvateksti h1 {
+        font-size: 1.5rem !important;
     }
     .alaotsikko {
         margin-left: 25px;
