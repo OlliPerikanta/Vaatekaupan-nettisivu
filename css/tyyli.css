@@ -268,11 +268,73 @@ h3 {
 }
 
 
-.viikontyyli img {
+.viikkotyyli {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.testausta {
+    position: relative;
+}
+
+.viikkotyyli img {
     margin-top: 10px;
     margin-bottom: 10px;
     width: 100%;
+    max-width: 448px;
     height: auto;
+}
+
+.viikkotyyli:hover .ylosvetolaatikko {
+    top: 80%;
+}
+
+.viikkotyyli:hover .laatikonsisalto {
+    display: block;
+}
+
+.laatikonsisalto {
+    display: none;
+}
+
+.tuoteteksti {
+    font-weight: 500;
+    line-height: 15px;
+}
+
+.linkki {
+    text-decoration-line: none !important;
+    color: #C6B298 !important;
+}
+
+.linkki:hover {
+    color: #5D535E !important;
+}
+
+.nappula:hover {
+    color: #5D535E !important;
+}
+
+.nappula {
+    padding: 10px;
+    background-color: #363237 !important;
+    float: right;
+}
+
+.ylosvetolaatikko {
+    position: absolute;
+    top: 95%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    opacity: 1;
+    transition: .3s ease;
+    background-color: white;
+
 }
 
 /*---------------------------------------------------------------------------*/
