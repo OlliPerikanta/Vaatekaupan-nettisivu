@@ -337,6 +337,49 @@ h3 {
 
 }
 
+.laatikonsisalto-mobiili {
+    display: block;
+
+
+}
+
+.ylosvetolaatikko-mobiili {
+    position: absolute;
+    top: 80%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    opacity: 1;
+    transition: .3s ease;
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+
+
+.nappula-mobiili {
+    padding: 10px;
+    background-color: #363237 !important;
+    position: absolute !important;
+    right: 20%;
+    top: 0;
+}
+
+.tuoteotsikko-mobiili {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.tuoteteksti-mobiili {
+    color: #fff;
+    font-weight: 500;
+    line-height: 15px;
+    margin-left: 10px;
+    ;
+}
+
 /*---------------------------------------------------------------------------*/
 
 /*NELJÄS-OSIO*/
